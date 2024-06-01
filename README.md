@@ -46,13 +46,11 @@ The above quant results show that an R-squared value of 0.59 means that approxim
 
 ### `High Positive Correlations`
 
-MedInc and target: Typically, a high positive correlation suggests that as the median income increases, the median house value also tends to increase.
-
-AveRooms and Population: This usually indicates that areas with more average rooms per household also have higher populations.
+MedInc and target: In the data a high positive correlation suggests that as the median income increases, the median house value also tends to increase.
 
 ### `High Negative Correlations`
 
-AveBedrms and target: A high negative correlation here might suggest that areas with a higher average number of bedrooms per household tend to have lower house values. 
+AveBedrms and target: A high negative correlation in the dataset might suggest that areas with a higher average number of bedrooms per household tend to have lower house values. 
 
 ## How to Run
 
