@@ -1,6 +1,6 @@
 # California Housing
 
-This project focuses on predicting housing prices in California from 1990 census.
+This project focuses on predicting housing prices in California from 1990 census dataset.
 
 
 ## Implementation Details
