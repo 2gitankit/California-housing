@@ -2,8 +2,18 @@
 
 This project focuses on predicting housing prices in California from 1990 census dataset.
 
-
-## Implementation Details
+*Method*                       | *R2 Score*    | *MSE*        |
+| ------------------------------ | ------------- | ------------ |
+| Mutual Information Regression  | 0.5720  (3)      | 0.5607       |
+| f_test Regression              | 0.5749  (6)      | 0.5012       |
+| Pearson's Correlation          | 0.5813  (5)     | 0.5485       |
+| Recursive Feature Elimination  | 0.5811  (5)    | 0.5489       |
+| Select From Model              | 0.4940  (2)     | 0.6629       |
+| Sequential Feature Selection fwd | 0.5088  (4)      | 0.6435       |
+| Sequential Feature Selection bkwd | 0.5810 (4)        | 0.5489       |
+| Intrinsic L1 Regularization    | 0.2841    (8)    | 0.9380       |
+| Principal Component Analysis LR  | 0.5757  (8)       | 0.5558       |
+| Principal Component Analysis RFR  | 0.7615  (8)      | 0.3124       |   
 
 - `Dataset`: California Housing Dataset (view below for more details)
 - `Model`: [Linear Regressor](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)
